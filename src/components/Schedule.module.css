@@ -1,0 +1,59 @@
+.schedule {
+    padding: 140px 60px;
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 60px;
+    font-family: 'Barlow Condensed', sans-serif;
+}
+
+.table th {
+    text-align: left;
+    padding: 16px 24px;
+    font-size: 0.8rem;
+    letter-spacing: 0.25em;
+    text-transform: uppercase;
+    color: var(--red);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.table td {
+    padding: 20px 24px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+    font-size: 1rem;
+    color: var(--light-gray);
+    transition: color 0.2s;
+}
+
+.table tr:hover td {
+    color: var(--white);
+    background: rgba(255, 255, 255, 0.02);
+}
+
+.className {
+    color: var(--white) !important;
+    font-weight: 600;
+    font-size: 1.1rem;
+}
+
+.badge {
+    display: inline-block;
+    padding: 4px 12px;
+    background: rgba(232, 0, 29, 0.15);
+    color: var(--red);
+    font-size: 0.75rem;
+    letter-spacing: 0.2em;
+}
+
+.badgeFull {
+    background: rgba(255, 255, 255, 0.05);
+    color: var(--light-gray);
+}
+
+@media (max-width: 900px) {
+    .schedule {
+        padding: 80px 24px;
+    }
+}

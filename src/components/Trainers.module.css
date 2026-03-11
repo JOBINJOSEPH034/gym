@@ -1,0 +1,72 @@
+.trainers {
+    padding: 100px 60px;
+    background: var(--gray);
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2px;
+    margin-top: 60px;
+}
+
+.card {
+    background: var(--dark);
+    overflow: hidden;
+    cursor: none;
+    position: relative;
+}
+
+.img {
+    height: 300px;
+    background: var(--darker);
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.overlay {
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(to top, var(--dark) 0%, transparent 60%);
+}
+
+.info {
+    padding: 24px 28px 32px;
+}
+
+.name {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 1.8rem;
+    letter-spacing: 0.05em;
+}
+
+.role {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 0.8rem;
+    letter-spacing: 0.25em;
+    text-transform: uppercase;
+    color: var(--red);
+    margin-top: 4px;
+}
+
+.spec {
+    font-size: 0.85rem;
+    color: var(--light-gray);
+    margin-top: 10px;
+    font-weight: 300;
+}
+
+@media (max-width: 900px) {
+    .trainers {
+        padding: 80px 24px;
+    }
+
+    .grid {
+        grid-template-columns: 1fr 1fr;
+    }
+}

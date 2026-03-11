@@ -1,0 +1,150 @@
+.pricing {
+    padding: 140px 60px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2px;
+    margin-top: 60px;
+}
+
+.card {
+    background: var(--gray);
+    padding: 60px 40px;
+    position: relative;
+    transition: transform 0.3s;
+    cursor: none;
+}
+
+.card:hover {
+    transform: translateY(-8px);
+}
+
+.featured {
+    background: var(--red);
+    transform: translateY(-12px);
+}
+
+.featured:hover {
+    transform: translateY(-18px);
+}
+
+.tag {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 0.75rem;
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: var(--light-gray);
+    margin-bottom: 10px;
+}
+
+.featured .tag {
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.name {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+}
+
+.amount {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 5rem;
+    line-height: 1;
+    margin-bottom: 8px;
+}
+
+.amount sup {
+    font-size: 1.5rem;
+    vertical-align: super;
+    font-family: 'Barlow Condensed', sans-serif;
+}
+
+.period {
+    font-size: 0.85rem;
+    color: var(--light-gray);
+    margin-bottom: 40px;
+    font-weight: 300;
+}
+
+.featured .period {
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.features {
+    list-style: none;
+    margin-bottom: 40px;
+}
+
+.features li {
+    padding: 12px 0;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.07);
+    font-size: 0.9rem;
+    color: var(--light-gray);
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    font-weight: 300;
+}
+
+.featured .features li {
+    color: rgba(255, 255, 255, 0.85);
+    border-bottom-color: rgba(255, 255, 255, 0.15);
+}
+
+.features li::before {
+    content: '—';
+    color: var(--red);
+    font-size: 0.8rem;
+}
+
+.featured .features li::before {
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.btnPlan {
+    display: block;
+    text-align: center;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 0.85rem;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    font-weight: 700;
+    padding: 18px;
+    text-decoration: none;
+    transition: all 0.2s;
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    color: var(--white);
+    cursor: none;
+}
+
+.btnPlan:hover {
+    border-color: var(--white);
+}
+
+.featured .btnPlan {
+    background: var(--dark);
+    border-color: var(--dark);
+    color: var(--white);
+}
+
+.featured .btnPlan:hover {
+    background: #111;
+}
+
+@media (max-width: 900px) {
+    .pricing {
+        padding: 80px 24px;
+    }
+
+    .grid {
+        grid-template-columns: 1fr;
+    }
+
+    .featured {
+        transform: none;
+    }
+}

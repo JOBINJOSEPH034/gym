@@ -1,0 +1,6 @@
+export { default as Home } from './Home'
+export { default as AboutPage } from './AboutPage'
+export { default as ProgramsPage } from './ProgramsPage'
+export { default as PricingPage } from './PricingPage'
+export { default as SchedulePage } from './SchedulePage'
+export { default as TrainersPage } from './TrainersPage'

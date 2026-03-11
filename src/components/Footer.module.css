@@ -1,0 +1,108 @@
+.footer {
+    background: var(--darker);
+    padding: 80px 60px 40px;
+    border-top: 1px solid rgba(255, 255, 255, 0.06);
+}
+
+.top {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1fr;
+    gap: 60px;
+    margin-bottom: 60px;
+}
+
+
+
+.logo {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 2.5rem;
+    letter-spacing: 0.1em;
+    color: var(--white);
+    margin-bottom: 20px;
+    display: block;
+}
+
+.logo span {
+    color: var(--red);
+}
+
+.desc {
+    color: var(--light-gray);
+    font-size: 0.9rem;
+    line-height: 1.7;
+    font-weight: 300;
+}
+
+.colTitle {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 0.75rem;
+    letter-spacing: 0.35em;
+    text-transform: uppercase;
+    color: var(--red);
+    margin-bottom: 24px;
+}
+
+.links {
+    list-style: none;
+}
+
+.links li {
+    margin-bottom: 12px;
+}
+
+.links a {
+    color: var(--light-gray);
+    text-decoration: none;
+    font-size: 0.9rem;
+    font-weight: 300;
+    transition: color 0.2s;
+}
+
+.links a:hover {
+    color: var(--white);
+}
+
+.bottom {
+    border-top: 1px solid rgba(255, 255, 255, 0.06);
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.copy {
+    color: rgba(255, 255, 255, 0.25);
+    font-size: 0.8rem;
+    font-weight: 300;
+    letter-spacing: 0.05em;
+}
+
+.socialLinks {
+    display: flex;
+    gap: 24px;
+}
+
+.socialLinks a {
+    color: var(--light-gray);
+    text-decoration: none;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 0.8rem;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    transition: color 0.2s;
+}
+
+.socialLinks a:hover {
+    color: var(--red);
+}
+
+@media (max-width: 900px) {
+    .footer {
+        padding: 60px 24px 30px;
+    }
+
+    .top {
+        grid-template-columns: 1fr 1fr;
+        gap: 40px;
+    }
+}
