@@ -27,7 +27,7 @@ export default function Footer() {
                     <p className={styles.colTitle}>Contact</p>
                     <ul className={styles.links}>
                         <li><a href="mailto:demo@ironforge.in">demo@ironforge.in</a></li>
-                        <li><a href="tel:+919876543210">+91 98765 43210</a></li>
+                        <li><a href="tel:+919633208371">+91 96332 08371</a></li>
                         <li><span>Kochi, Kerala</span></li>
                         <li><span>Open 24/7</span></li>
                     </ul>
@@ -42,7 +42,7 @@ export default function Footer() {
                 </div>
             </div>
             <div className={styles.bottom}>
-                <p className={styles.copy}>© 2026 IRONFORGE GYM. All rights reserved.</p>
+                <p className={styles.copy}>© 2026 IRONFORGE GYM. All rights reserved. | Created by Jobin Joseph</p>
                 <div className={styles.socialLinks}>
                     <a href="#" target="_blank" rel="noopener noreferrer">Instagram</a>
                     <a href="#" target="_blank" rel="noopener noreferrer">TikTok</a>
