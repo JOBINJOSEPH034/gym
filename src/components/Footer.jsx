@@ -7,7 +7,7 @@ export default function Footer() {
             <div className={styles.top}>
                 <div className={styles.brand}>
                     <Link to="/" className={styles.logo} style={{ textDecoration: 'none' }}>
-                        IRON<span>FORGE</span>
+                        PRO<span>GAIN</span>
                     </Link>
                     <p className={styles.desc}>
                         Premium fitness since 2010. Built on science, powered by passion, and driven by your
@@ -26,7 +26,7 @@ export default function Footer() {
                 <div>
                     <p className={styles.colTitle}>Contact</p>
                     <ul className={styles.links}>
-                        <li><a href="mailto:demo@ironforge.in">demo@ironforge.in</a></li>
+                        <li><a href="mailto:demo@progain.in">demo@progain.in</a></li>
                         <li><a href="tel:+919633208371">+91 96332 08371</a></li>
                         <li><span>Kochi, Kerala</span></li>
                         <li><span>Open 24/7</span></li>
@@ -42,7 +42,7 @@ export default function Footer() {
                 </div>
             </div>
             <div className={styles.bottom}>
-                <p className={styles.copy}>© 2026 IRONFORGE GYM. All rights reserved. | Created by Jobin Joseph</p>
+                <p className={styles.copy}>© 2026 PROGAIN GYM. All rights reserved. | Created by Jobin Joseph</p>
                 <div className={styles.socialLinks}>
                     <a href="#" target="_blank" rel="noopener noreferrer">Instagram</a>
                     <a href="#" target="_blank" rel="noopener noreferrer">TikTok</a>

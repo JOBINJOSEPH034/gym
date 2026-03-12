@@ -7,7 +7,7 @@ export default function About() {
                 <p className="section-label">Who We Are</p>
                 <h2 className="section-title">MORE THAN A<br />GYM.</h2>
                 <p className="section-body">
-                    IRONFORGE is a performance training facility built for those who take their results
+                    PROGAIN is a performance training facility built for those who take their results
                     seriously. We combine cutting-edge equipment, science-backed programming, and elite
                     coaching to deliver a training experience unlike anything else.
                 </p>

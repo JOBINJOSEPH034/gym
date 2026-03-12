@@ -5,7 +5,7 @@ export default function Navbar() {
     return (
         <nav className={styles.nav}>
             <Link to="/" className={styles.logo}>
-                IRON<span>FORGE</span>
+                PRO<span>GAIN</span>
             </Link>
             <ul className={styles.navLinks}>
                 <li><Link to="/">Home</Link></li>
